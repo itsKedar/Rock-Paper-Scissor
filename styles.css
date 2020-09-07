@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://www.transparenttextures.com/patterns/beige-paper.png");
+    margin: 0;
+    padding: 0;
+}
+
+.selections {
+    display: flex;
+    justify-content: center;
+}
+
+.player-button {
+    font-size: 8em;
+    background: none;
+    outline: none;
+    border: none;
+    padding-left: 25px;
+    cursor: pointer;
+    transition: 100ms;
+    padding-right: 25px;
+}
+
+.player-button:hover {
+    opacity: 100%;
+    transform: scale(1.2);
+
+}
+
+.top {
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+}
+
+.Option {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.heading {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#result {
+    margin-top: 1em;
+    display: grid;
+    font-size: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    grid-template-columns: repeat(2, 0.4fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.result-score {
+    margin-left: 0.5em;
+    font-size: 0.5em;
+    color: #333;
+}
+
+.result-select {
+    opacity: 0.5;
+}
+
+.result-select.winner {
+    opacity: 1;
+    font-size: 1.5em;
+}
